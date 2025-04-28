@@ -1,0 +1,315 @@
+/* Стиль для кнопки .number1 */
+.number1 {
+    display: block; /* Делает элемент блочным */
+    color: white; /* Цвет текста белый */
+    background-color: plum; /* Фон кнопки - фиолетовый */
+    text-decoration: none; /* Убирает подчеркивание текста */
+    font-size: 15px; /* Размер шрифта */
+    transition: all 0.4s ease-in-out; /* Плавный переход для всех свойств */
+    box-shadow: 0px 0px 0px 2px rgba(255, 158, 205, 0.67); /* Тень вокруг кнопки */
+    border-radius: 30px; /* Закругление углов */
+    padding: 15px 30px; /* Внутренние отступы */
+    border: none; /* Убирает границу */
+}
+.number1:hover,
+.number1:focus {
+    box-shadow: 0px 0px 0px 2px rgba(109, 66, 87, 0.67); /* Изменение тени при наведении/фокусе */
+}
+/* Кнопка .number1: Базовая кнопка с фиолетовым фоном и плавным изменением тени. */
+
+/* Стиль для кнопки .number2 */
+.number2 {
+    display: block;
+    color: white;
+    background-color: plum;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 2px rgba(255, 158, 205, 0.67);
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+}
+.number2:hover,
+.number2:focus {
+    box-shadow: 0px 0px 0px 2px rgba(255, 0, 123, 0.67); /* Изменение цвета тени */
+    color: black; /* Цвет текста становится черным */
+    background-color: white; /* Фон кнопки становится белым */
+}
+/* Кнопка .number2: Похожа на .number1, но при наведении меняет цвет текста и фона. */
+
+/* Стиль для кнопки .number3 */
+.number3 {
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 255); /* Белый фон */
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 2px rgba(219, 219, 219, 0.67);
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+}
+.number3:hover,
+.number3:focus {
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0); /* Черная тень при наведении */
+    outline: black solid 1px; /* Добавляет черную границу */
+    color: white; /* Цвет текста становится белым */
+    background-color: black; /* Фон становится черным */
+}
+/* Кнопка .number3: Белая кнопка с черной тенью, которая становится черной при наведении. */
+
+/* Стиль для кнопки .number4 */
+.number4 {
+    display: block;
+    color: white;
+    background-color: rgb(0, 0, 0); /* Черный фон */
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 2px rgba(219, 219, 219, 0.67);
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+    outline: rgb(0, 0, 0) solid 1px; /* Добавляет черную сплошную границу */
+}
+.number4:hover,
+.number4:focus {
+    outline: rgba(0, 0, 0, 0.301) dashed 2px; /* Пунктирная граница при наведении */
+    color: black; /* Цвет текста становится черным */
+    background-color: white; /* Фон становится белым */
+}
+/* Кнопка .number4: Черная кнопка с пунктирной границей при наведении. */
+
+/* Стиль для кнопки .number5 */
+.number5 {
+    display: block;
+    color: white;
+    background-color: rgb(47, 161, 255); /* Светло-синий фон */
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 3px rgba(117, 200, 255, 0.411);
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+}
+.number5:hover,
+.number5:focus {
+    box-shadow: 0px 0px 0px 5px rgba(117, 200, 255, 0.67); /* Увеличение тени */
+}
+/* Кнопка .number5: Синяя кнопка с увеличивающейся тенью при наведении. */
+
+/* Стиль для кнопки .number6 */
+.number6 {
+    display: block;
+    color: rgb(180, 255, 245); /* Голубой текст */
+    background-color: rgb(53, 255, 228); /* Бирюзовый фон */
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 2px rgba(53, 255, 228, 0.521);
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+}
+.number6:hover,
+.number6:focus {
+    box-shadow: 0px 0px 0px 2px rgb(53, 255, 228); /* Изменение тени */
+    color: rgb(0, 167, 144); /* Темно-бирюзовый текст */
+    background-color: white; /* Белый фон */
+}
+/* Кнопка .number6: Бирюзовая кнопка, которая становится белой при наведении. */
+
+/* Стиль для кнопки .number7 */
+.number7 {
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 255); /* Белый фон */
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 0px 2px rgba(219, 219, 219, 0.67);
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+}
+.number7:hover,
+.number7:focus {
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0); /* Черная тень */
+    outline: black solid 1px; /* Черная граница */
+    color: white; /* Белый текст */
+    background-color: black; /* Черный фон */
+    border-radius: 15px; /* Закругление углов */
+}
+/* Кнопка .number7: Белая кнопка, которая становится черной при наведении. */
+
+/* Стиль для кнопки .number8 */
+.number8 {
+    margin-bottom: 20px; /* Отступ снизу */
+    width: 180px; /* Ширина кнопки */
+    height: 30px; /* Высота кнопки */
+    overflow: hidden; /* Скрывает содержимое за пределами кнопки */
+    border: none; /* Убирает границу */
+    padding: 0; /* Убирает внутренние отступы */
+}
+.number8 span {
+    position: relative; /* Относительное позиционирование */
+    background-color: rgb(0, 132, 255); /* Синий фон */
+    color: rgb(255, 255, 255); /* Белый текст */
+    border: none;
+    transition: transform 0.4s; /* Плавный переход для анимации */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Выравнивание по центру */
+    justify-content: center; /* Выравнивание по центру */
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+}
+.number8 span::before {
+    content: "НАВЕДЕНО"; /* Текст внутри кнопки */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(106, 225, 255); /* Голубой фон */
+    color: rgb(0, 132, 255); /* Синий текст */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%); /* Перемещение текста за пределы видимости */
+    transition: transform 0.4s; /* Плавный переход */
+}
+.number8:hover span,
+.number8:focus span {
+    transform: translateX(180px); /* Анимация перемещения текста */
+}
+/* Кнопка .number8: Креативная кнопка с анимацией текста "НАВЕДЕНО". */
+
+/* Стиль для кнопки .number9 */
+.number9 {
+    position: relative; /* Относительное позиционирование */
+    font-size: 20px; /* Размер шрифта */
+    text-transform: uppercase; /* Преобразует текст в верхний регистр */
+    color: purple; /* Фиолетовый текст */
+    padding: 15px 30px;
+    background-color: white; /* Белый фон */
+    border-bottom: 2px solid purple; /* Нижняя граница */
+    border-top: 2px solid purple; /* Верхняя граница */
+    border-right: 0; /* Убирает правую границу */
+    border-left: 0; /* Убирает левую границу */
+}
+.number9::after {
+    content: ""; /* Пустой контент */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 133, 255, 0.295); /* Полупрозрачный фон */
+    transform: scale(0); /* Начальный масштаб (невидим) */
+    transform-origin: center; /* Центральная точка трансформации */
+    transition: all 0.4s ease-in-out; /* Плавный переход */
+}
+.number9:hover::after,
+.number9:focus::after {
+    transform: scale(1); /* Масштабирование до видимого состояния */
+}
+/* Кнопка .number9: Фиолетовая кнопка с эффектом заполнения при наведении. */
+
+/* Стиль для кнопки .number10 */
+.number10 {
+    position: relative; /* Относительное позиционирование */
+    margin-top: 60px; /* Отступ сверху */
+    margin-left: 60px; /* Отступ слева */
+    display: flex; /* Flexbox для выравнивания */
+    flex-direction: row; /* Горизонтальное расположение */
+    text-align: center; /* Выравнивание текста по центру */
+    justify-content: center; /* Выравнивание содержимого по центру */
+    padding: 20px; /* Внутренние отступы */
+    border: transparent; /* Прозрачная граница */
+    background-color: #ecedfa; /* Светло-серый фон */
+    border-radius: 100px; /* Закругление углов */
+    transition: all 0.1s ease-in-out; /* Плавный переход */
+}
+.number10:focus {
+    box-shadow: 0px 0px 0px 5px rgba(4, 0, 255, 1) inset; /* Внутренняя тень при фокусе */
+    color: blue; /* Синий текст */
+    outline: none; /* Убирает стандартную границу */
+}
+.number10:hover {
+    background-color: rgba(251, 255, 0, 0.144); /* Желтый фон при наведении */
+    transition: all 0.2s ease-in-out; /* Плавный переход */
+}
+.number10 svg {
+    transition: all 0.2s ease-in-out; /* Плавный переход для SVG */
+}
+.number10:hover svg {
+    transform: scale(1.4); /* Увеличение размера SVG */
+}
+/* Кнопка .number10: Кнопка с иконкой, которая увеличивается при наведении. */
+
+/* Стиль для кнопки .number11 */
+.number11 {
+    position: relative; /* Относительное позиционирование */
+    margin-top: 60px; /* Отступ сверху */
+    margin-left: 60px; /* Отступ слева */
+    display: flex; /* Flexbox для выравнивания */
+    flex-direction: row; /* Горизонтальное расположение */
+    text-align: center; /* Выравнивание текста по центру */
+    justify-content: center; /* Выравнивание содержимого по центру */
+    padding: 20px; /* Внутренние отступы */
+    border: transparent; /* Прозрачная граница */
+    background-color: #fff; /* Белый фон */
+    border-radius: 100px; /* Закругление углов */
+    outline: 4px solid transparent; /* Прозрачная граница */
+    transition: all 0.1s ease; /* Плавный переход */
+}
+.number11:focus {
+    color: blue; /* Синий текст */
+    outline: 4px solid blue; /* Синяя граница при фокусе */
+    outline-offset: -10px; /* Смещение границы внутрь */
+}
+.number11:hover {
+    color: rgb(255, 2, 120); /* Розовый текст */
+    outline: 4px solid rgb(255, 2, 120); /* Розовая граница при наведении */
+    outline-offset: -10px; /* Смещение границы внутрь */
+}
+/* Кнопка .number11: Кнопка с изменяющейся границей при наведении. */
+
+/* Стиль для кнопки .number12 */
+.number12 {
+    position: relative; /* Относительное позиционирование */
+    margin-top: 60px; /* Отступ сверху */
+    margin-left: 60px; /* Отступ слева */
+    display: flex; /* Flexbox для выравнивания */
+    flex-direction: row; /* Горизонтальное расположение */
+    text-align: center; /* Выравнивание текста по центру */
+    justify-content: center; /* Выравнивание содержимого по центру */
+    padding: 20px; /* Внутренние отступы */
+    border: transparent; /* Прозрачная граница */
+    background-color: transparent; /* Прозрачный фон */
+    color: rgb(0, 43, 100); /* Темно-синий текст */
+    outline: 4px solid rgb(0, 40, 100); /* Темно-синяя граница */
+    outline-offset: -5px; /* Смещение границы внутрь */
+    border-radius: 100px; /* Закругление углов */
+    transition: all 0.1s ease-in-out; /* Плавный переход */
+}
+.number12:hover,
+.number12:focus {
+    color: rgba(0, 40, 100, 0.315); /* Полупрозрачный темно-синий текст */
+    outline-offset: -10px; /* Смещение границы внутрь */
+    box-shadow: 0px 0px 0px 5px rgba(0, 68, 100, 0.315); /* Тень при наведении */
+    transform: rotate(45deg); /* Поворот кнопки */
+}
+.number12 svg {
+    transition: all 0.2s ease-in-out; /* Плавный переход для SVG */
+}
+.number12:hover svg {
+    transform: scale(0.9); /* Уменьшение размера SVG */
+}
+/* Кнопка .number12: Кнопка с поворотом и уменьшением иконки при наведении. */
